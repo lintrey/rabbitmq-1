@@ -33,6 +33,7 @@ public class C {
 				System.out.println("C [x] Received '" + message + "'");
 			}
 		};
+		//zctlog001
 		channel.basicConsume(QUEUE_NAME, true, consumer);
 	}
 }
