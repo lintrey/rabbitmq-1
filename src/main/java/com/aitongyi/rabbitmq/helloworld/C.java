@@ -34,6 +34,7 @@ public class C {
 			}
 		};
 		//zctlog001
+		//zctlog002
 		channel.basicConsume(QUEUE_NAME, true, consumer);
 	}
 }
